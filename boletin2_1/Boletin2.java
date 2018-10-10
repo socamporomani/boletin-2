@@ -22,7 +22,7 @@ public class Boletin2 {
         float precioNormal=ler.nextFloat();
         System.out.println("introduce el precio pagado");
         float precioPagado=ler.nextFloat();
-        descuento=(precioPagado*100)/precioNormal;
+        descuento=(precioPagado-precioNormal)/precioNormal*100;
         
         System.out.println("el descuento es:"+descuento+"%");
     
